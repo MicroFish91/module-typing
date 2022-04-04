@@ -24,8 +24,10 @@
     "baseUrl": ".",
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
-    "typeRoots": ["./types", "./node_modules/@types"]
+    "paths": {
+      "*": ["./types/*"]
+    }
   },
-  "exclude": ["node_modules"],
-  "include": ["./src/**/*.ts", "./src/**/*.js", "./types"]
+  "exclude": ["node_modules", "types"],
+  "include": ["./src/**/*.ts", "./src/**/*.js"]
 }
