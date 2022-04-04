@@ -23,8 +23,9 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./types", "./node_modules/@types"]
   },
   "exclude": ["node_modules"],
-  "include": ["./src/**/*.ts", "./src/**/*.js", "index.d.ts"]
+  "include": ["./src/**/*.ts", "./src/**/*.js", "./types"]
 }

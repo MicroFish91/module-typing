@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.6.3"
+  "scripts": {
+    "dash": "ts-node ./src/index.ts"
   },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
   }
 }
