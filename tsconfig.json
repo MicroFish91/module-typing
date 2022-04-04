@@ -25,9 +25,9 @@
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "*": ["./types/*"]
+      "*": ["src/@types/*"]
     }
   },
-  "exclude": ["node_modules", "types"],
+  "exclude": ["node_modules", "src/@types"],
   "include": ["./src/**/*.ts", "./src/**/*.js"]
 }
